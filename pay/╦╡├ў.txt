@@ -1,0 +1,25 @@
+﻿API说明 : https://docs.nephalem.cn/read/zhifufm/startorder
+
+
+一、demo分别对应两种常用请求方式参考
+1.returnType='page' 接口请求提交直接跳转到支付页面链接模式
+form方式入口：zhifu_php_demo.html
+form方式php后台：zhifu_api_demo.php
+
+2.returnType='json' 接口请求后收到json字符串自行打开支付页面链接
+json方式入口：zhifu_php_demo_json.html
+json方式php后台：zhifu_api_demo_json.php
+
+二、异步回调获取参数方式参考
+zhifu_callback_demo.php
+
+需修改：
+商户号，商户密钥，接口地址，异步回调的公网地址
+
+https://zhifu.fm/
+a151251551
+aA151251551..
+a2949027426..
+aA2949027426..
+
+UZXLUPWYDASPLWKO
